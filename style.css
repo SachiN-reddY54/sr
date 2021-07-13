@@ -1,0 +1,51 @@
+/* 
+
+Project Name: Cookie Monster 
+Client: Cookie Monster
+Author: Chris Castiglione | www.twitter.com/castig | www.castig.org 
+Developed @ One Month in NYC 
+
+*/
+
+body {
+	background: url('../images/ds.jpg');
+	/* the follow is the code to have the image display as a full page */
+	background-position: center;
+	background-attachment: fixed;
+	-webkit-background-size: cover; /* the next 3 lines are "browser prefixes", they are necessary to include for CSS3 techniques */
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#container{
+	background: transparent;
+	width: 670px;
+	color: white;
+	padding: 17px;
+}
+ 
+ h1{
+ 	font-size: 50px;
+ 	color: indianred;
+ 	background: transparent;
+ 	font-style: all;
+ 	font-family: 'Press Start 2P', cursive;
+ }
+
+
+ p{
+ 	font-size: 23px;
+ 	color: yellowgreen;
+ 	background: transparent;
+ 	font-family: 'Cabin Sketch', cursive;
+ }
+
+ h3{
+ 	font-size: 33px;
+ 	font-family: 'Indie Flower', cursive;
+ 	background: lightpink;
+ 	color: blue;
+ 	border-radius: 5px;
+ }
+
